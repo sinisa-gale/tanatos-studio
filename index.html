@@ -10,39 +10,69 @@
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
+	<!--Banner-->
 	<section class="banner position-relative">
     <header class="position-relative">
         <div class="row">
-            <div class="flex-container">
+            <div class="flex-container text-color-white">
 	            <div class="banner-title">
-	                <h4>Tanatos <span>Studio</span></h4>
+	                <h4>Tanatos <span class="orange-color">Studio</span></h4>
 	            </div>
 	            <div class="medium-text-right">
-	                    <span> Menu</span>
+	                    <span>Menu</span>
 	                    <img id="menu-icon" src="./img/menu-icon.png" />
 	            </div>
 	        </div>
-            <div class="header__container">
-                <h1 class="custom__title opensans__ext-bold display-inline-block text-center width-100">WE DESIGN
-                    <span>THINGS</span>
+            <div class="header-container text-color-white">
+                <h1 class="text-center">WE DESIGN
+                    <span class="orange-color">THINGS</span>
                 </h1>
-                <p class="text__light medium-8 medium-offset-2 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua.</p>
-                <div class="header__btn">
-                    <div class="expanded button-group column small-12 medium-6 medium-offset-3 font-semibold">
-                        <a class="button hollow secondary orange__btn border__radious-10" data-toggle="animatedModal10" aria-controls="animatedModal10" aria-haspopup="true" tabindex="0">HIRE US</a>
-                        <a class="button hollow secondary orange__btn border__radious-10">OUR WORKS</a>
-                    </div>
+                <p class="medium-size medium-offset-2 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <div class="header-btn flex-container">
+                        <a class="button border-radius">HIRE US</a>
+                        <a class="button border-radius">OUR WORKS</a>
                 </div>
             </div>
-            <div class="row columns">
-                <div class="small-6 small-offset-3 text-center down__arrow">
-                    <a class="fas fa-chevron-circle-down fa-2x text__light slow" href="#services"></a>
-                </div>
+            <div class="row down-arrow text-center">
+                <img src="./img/arrow-down.png">
             </div>
         </div>
     </header>
-</section>
-<!-- banner -->
+	</section>
+	<!-- banner -->
+
+	<section id="services" class="services wrapper">
+    <div class="row">
+        <div class="large-3 small-up-2 medium-6 small-12 columns">
+            <div class="services__logo small-cenrtered text-center">
+                <span class="fas fa-print rounded"></span>
+                <h4 class="text__grey font-semibold">PRINT DESIGN</h4>
+                <p class="text__grey">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
+            </div>
+        </div>
+        <div class="large-3 small-up-2 medium-6 small-12 columns">
+            <div class="services__logo small-cenrtered text-center">
+                <span class="fas fa-desktop rounded"></span>
+                <h4 class="text__grey font-semibold">WEB DESIGN</h4>
+                <p class="text__grey">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
+            </div>
+        </div>
+        <div class="large-3 small-up-2 medium-6 small-12 columns">
+            <div class="services__logo small-cenrtered text-center mb-md-0">
+                <span class="fas fa-desktop rounded"></span>
+                <h4 class="text__grey font-semibold">APP DESIGN</h4>
+                <p class="text__grey mb-md-0">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
+            </div>
+        </div>
+        <div class="large-3 small-up-2 medium-6 small-12 columns">
+            <div class="services__logo small-cenrtered text-center margin-bottom-0">
+                <span class="fas fa-edit rounded"></span>
+                <h4 class="text__grey font-semibold">LOGO DESIGN</h4>
+                <p class="text__grey margin-bottom-0">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
+            </div>
+        </div>
+    </div>
+	</section>
+	<!-- service -->
 </body>
 </html>
