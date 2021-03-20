@@ -1,8 +1,10 @@
 /* RESPONSIVE */
-@media screen and (min-width: 768px) {
-	header {
-		padding-top: 50px;
-		padding-bottom: 50px;
+@media screen and (min-width: 40em) {
+	h4 {
+		font-size: 1.5625rem;
+	}
+	.medium-text-right {
+	    text-align: right;
 	}
 }
 
@@ -13,11 +15,14 @@
 	}
 }
 
-@media screen and (max-width: 40em) {
-	h4 {
-		font-size: 1.5625rem;
+
+@media screen and (min-width: 768px) {
+	header {
+		padding-top: 50px;
+		padding-bottom: 50px;
 	}
 }
+
 
 
 @media screen and (max-width: 500px) {
