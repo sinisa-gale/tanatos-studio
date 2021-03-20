@@ -1,0 +1,208 @@
+/* RESPONSIVE */
+@media screen and (max-width: 1000px) {
+	nav {
+	    margin-top: 5%;
+	}
+
+	ul li a {
+		padding: 4px 2px;
+		width: 108px;
+		font-size: 85%;
+	}
+
+	ul li ul.drop-down {
+		left: 41%;
+	}
+
+	form {
+		padding: 10px;
+	}
+
+	form>p {
+		font-size: 1.5em;
+	}
+
+	label, input, select {
+		width: 17%;
+		margin: 10px 5px;
+	}
+
+	input, select {
+		padding: 5px;
+		width: 27%;
+	}
+
+	select {
+		width: 29%;
+	}
+
+	input[type="submit"] {
+		width: 150px;
+		margin-left: 50px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	header {
+		position: relative;
+		display: block;
+		width: 100%;
+		padding: 10px 10px;
+	}
+
+	header img {
+		width: 8em;
+		display: block;
+		margin: 0 auto;
+	}
+
+	nav {
+	    padding: 0;
+	    margin-top: 1%;
+	}
+
+	ul li a {
+		padding: 4px 2px;
+		width: 108px;
+		font-size: 0.8em;
+	}
+
+	ul li ul.drop-down {
+		left: 232px;
+	}
+
+	#banner {
+		margin-top: 0;
+	}
+
+	div.container {
+		width: 46%;
+		padding: 2% 0 3% 2%;
+	}
+
+	label, input, select {
+		width: 30%;
+		margin: 10px;
+	}
+
+	input, select {
+		width: 50%;
+	}
+
+	select {
+		width: 52.5%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	header {
+		width: 100%;
+		padding: 10px 3px;
+	}
+
+	ul li {
+		display: block;
+	}
+
+	ul li a {
+		width: 100%;
+		margin: 2px 0;
+		font-size: 1em;
+	}
+
+	ul li ul.drop-down {
+		width: 100%;
+		display: block;
+		position: relative;
+		left: 0;
+	}
+
+	ul li ul.drop-down li a {
+		width: 70%;
+		margin: 2px 0 2px 15%;
+	}
+}
+
+
+@media screen and (max-width: 500px) {
+	div.container {
+		width: 94%;
+		padding: 2% 0 3% 2%;
+	}
+
+	.price {
+		top: 3rem;
+		left: 8rem;
+		font-size: 4em;
+	}
+
+	form>p {
+		margin: 2% 20%;
+	}
+
+	label, input, select {
+		width: 95%;
+		margin: 15px 20px;
+	}
+
+	input, select {
+		width: 85%;
+		margin: 0 20px;
+	}
+
+	select {
+		width: 88%;
+	}
+
+	input[type="submit"] {
+		width: 150px;
+		margin: 20px 0 20px 20%;
+		font-size: 1em;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.price {
+		top: 3rem;
+		left: 5rem;
+		font-size: 3em;
+	}	
+}
+
+@media screen and (max-width: 320px) {
+	.price {
+		top: 3rem;
+		left: 4rem;
+		font-size: 2.5em;
+	}	
+
+	.location {
+		font-size: 1.5em;
+		text-align: center;
+	}	
+
+	form>p {
+		margin: 2% 20%;
+	}
+
+	label, input, select {
+		width: 95%;
+		margin: 15px 5px;
+	}
+
+	input, select {
+		width: 85%;
+		margin: 0 20px;
+		padding: 10px 5px;
+	}
+
+	select {
+		width: 90%;
+	}
+
+	input[type="submit"] {
+		width: 150px;
+		margin: 20px 0 20px 20%;
+		font-size: 1em;
+	}
+}

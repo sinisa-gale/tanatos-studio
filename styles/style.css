@@ -1,0 +1,170 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Montserrat", Helvetica, sans-serif;
+	box-sizing: border-box;
+}
+
+
+/*HEADER*/
+header {
+	position: fixed;
+	background-color: #fff;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 98%;
+	padding: 10px 30px;
+	z-index: 5;
+}
+
+header img {
+	width: 150px;
+}
+
+nav {
+	padding: 0 20px;
+	position: relative;
+	margin-top: 4em;
+}
+
+ul {
+	list-style: none;
+	padding-left: 0;
+	margin: 0;
+}
+
+ul li {
+	display: inline-block;
+	text-align: center;
+}
+
+ul li a {
+	display: block;
+	padding: 10px 10px;
+	width: 130px;
+	color: #fff;
+	text-decoration: none;
+	background-color: #004e98;
+}
+
+ul li a:hover {
+	background-color: #3a6ea5;
+}
+
+ul li ul.drop-down {
+	min-width: 100px;
+	display: none;
+	position: absolute;
+	z-index: 10;
+	left: 328px;
+}
+
+ul li:hover ul.drop-down {
+	display: block;
+}
+
+ul li ul.drop-down li {
+	display: block;
+}
+
+#banner {
+	width: 100%;
+	margin-top: 8em;
+}
+
+/*MAIN*/
+main {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	max-width: 1200px;
+	padding: 1%;
+	margin: 0 auto;
+}
+
+div.container {
+	width: 30.3%;
+	padding: 2% 0 3% 2%;
+}
+
+div.img-cont>img {
+	width: 100%;
+	z-index: 1;
+}
+
+div, div>p {
+	position: relative;
+	margin: 0;
+}
+
+.location, .price {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.location {
+	padding: 10px 0;
+}
+
+.desc {
+	text-align: justify;
+}
+
+.price {
+	position: absolute;
+	top: 2rem;
+	left: 4rem;
+	z-index: 2;
+	color: #fff;
+	font-size: 3em;
+	text-shadow: 3px 2px 2px rgba(0,0,0,0.5);
+}
+
+/*Form*/
+form {
+	max-width: 1000px;
+	width: 90%;
+	margin: 10px auto 50px;
+	padding: 20px;
+	border: 2px solid #ff6700;
+	background-color: #ebebeb;
+}
+
+form>p {
+	margin: 0 0 10px 50px;
+	font-size: 2em;
+}
+
+label, input, select {
+	display: inline-block;
+	width: 12%;
+	margin: 10px;
+}
+
+input, select {
+	padding: 10px;
+	width: 30%;
+}
+
+select {
+	width: 32.4%;
+}
+
+input[type="submit"] {
+	background-color: #004e98;
+	color: #fff;
+	outline: none;
+	border: none;
+	width: 200px;
+}
+
+/*Arrow top*/
+a img {
+	width: 4em;
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	z-index: 3;
+}
