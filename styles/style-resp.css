@@ -1,5 +1,10 @@
 /* RESPONSIVE */
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 200px) {
+	header {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
 	h4 {
 		font-size: 1.5625rem;
 	}
@@ -18,6 +23,10 @@
 	.header-btn {
 		width: 50%;
 		margin-left: 25%;
+	}
+
+	.down-arrow {
+		margin-top: 20px;
 	}
 }
 
