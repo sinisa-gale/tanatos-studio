@@ -123,7 +123,19 @@ h4 {
 	background-color: #F7600E;
 }
 
-.header-btn {
+.header-btn, footer p {
 	padding-right: 0.9375rem;
     padding-left: 0.9375rem;
 }
+
+
+
+footer {
+	background-color: #3B434C;
+	display: block;
+}
+
+footer p {
+	margin-bottom: 0;
+}
+
