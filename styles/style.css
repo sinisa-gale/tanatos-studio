@@ -26,6 +26,7 @@ p {
 .position-relative {
 	position: relative;
 }
+
 section.banner header {
 	z-index: 1;
 }
@@ -65,12 +66,13 @@ h4 {
 	text-align: center;
 }
 
-.flex-container div.medium-text-right span {
+#menu {
 	margin-right: 10px;
 }
 
 #menu-icon {
 	height: 1rem;
+	cursor: pointer;
 }
 
 .header-container h1 {
