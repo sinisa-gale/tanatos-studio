@@ -74,6 +74,21 @@
 		max-width: 200px;
 	}
 
+	.contact {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	.contact h4 {
+		font-size: 24px;
+	}
+
+	.contact p {
+		margin-bottom: 30px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
 	footer p {
 		width: 50%;
 		text-align: left;
@@ -87,6 +102,12 @@
 
 	.services div {
 		margin-bottom: 40px;
+	}
+
+	.contact p {
+		margin-bottom: 50px;
+		padding-left: 50px;
+		padding-right: 50px;
 	}
 }
 @media screen and (min-width: 640px) {
@@ -154,6 +175,15 @@
 		max-width: 100%;
 	}
 
+	.contact {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+	.contact h4 {
+		font-size: 28px;
+	}
+
 	footer {
 		padding-top: 35px;
 		padding-bottom: 35px;
@@ -210,6 +240,22 @@
 	.newsletter {
 		padding-top: 100px;
 		padding-bottom: 100px;
+	}
+
+	.contact {
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+
+	.contact h4 {
+		font-size: 35px;
+	}
+
+	.contact p {
+		margin-top: 15px;
+		margin-bottom: 100px;
+		width: 50%;
+		margin-left: 25%;
 	}
 
 	footer {

@@ -39,10 +39,6 @@ p {
 	padding-left: 0.9375rem;
 }
 
-.border-radius {
-	border-radius: 10px;
-}
-
 .text-color-white {
 	color: #FFF;
 }
@@ -99,6 +95,10 @@ h4 {
 	cursor: pointer;
 	background-color: #2BA6CB;
 	color: #FEFEFE;
+}
+
+.border-radius {
+	border-radius: 10px;
 }
 
 .header-container .flex-container .button {
@@ -194,7 +194,15 @@ h4 {
 
 
 /*---CONTACTS---*/
+.contact {
+	background: url("../img/contact-background.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
+.contact h4 {
+	font-weight: 600;
+}
 
 /*---FOOTER---*/
 footer {
