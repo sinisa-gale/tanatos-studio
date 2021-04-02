@@ -223,6 +223,16 @@ h4 {
 	padding-left: 15px;
 }
 
+.contact form a {
+	background-color: #F7600E;
+	margin-bottom: 0;
+	max-width: 200px;
+}
+
+.contact form img {
+	height: 35px;
+}
+
 /*---FOOTER---*/
 footer {
 	background-color: #3B434C;

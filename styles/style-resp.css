@@ -5,14 +5,6 @@
 		padding-bottom: 20px;
 	}
 
-	.text-left {
-		text-align: left;
-	}
-
-	.text-right {
-		text-align: right;
-	}
-
 	h4 {
 		font-size: 1.5625rem;
 	}
@@ -101,9 +93,22 @@
 		margin-right: auto;
 	}
 
+	.contact .button-hire {
+		width: 100%;
+	}
+
+	.contact form .soc-icon {
+		width: 100%;
+		margin-top: 30px;
+	}
+
+	footer .flex-container {
+		display: block;
+	}
+
 	footer p {
-		width: 50%;
-		text-align: left;
+		width: 100%;
+		text-align: center;
 	}
 }
 
@@ -210,9 +215,39 @@
 		width: 92%;
 	}
 
+	.contact .button-hire {
+		width: 33.33333%;
+		margin-left: 0.3%
+	}
+
+	.contact form a {
+		width: 100%;
+	}
+
+	.contact form .soc-icon {
+		width: 53%;
+		margin-top: 0;
+	}
+
 	footer {
 		padding-top: 35px;
 		padding-bottom: 35px;
+	}
+
+	footer .flex-container {
+		display: flex;
+	}
+
+	footer p {
+		width: 50%;
+	}
+
+	footer div p:first-child {
+		text-align: left;
+	}
+
+	footer div p:last-child {
+		text-align: right;
 	}
 }
 
@@ -288,6 +323,20 @@
 		margin-left: 100px;
 		margin-right: 100px;
 	}
+
+	.contact .button-hire {
+		width: 25%;
+		margin-left: 2%;
+	}
+
+	.contact form a {
+		margin-bottom: 30px;
+	}
+
+	.contact form .soc-icon {
+		width: 65%;
+	}
+
 
 	footer {
 		padding-top: 45px;
