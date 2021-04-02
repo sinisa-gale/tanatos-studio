@@ -89,6 +89,18 @@
 		padding-right: 10px;
 	}
 
+	.contact form .medium {
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.contact .text-area {
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
 	footer p {
 		width: 50%;
 		text-align: left;
@@ -184,6 +196,20 @@
 		font-size: 28px;
 	}
 
+	.contact form {
+		margin-left: 70px;
+		margin-right: 70px;
+	}
+
+	.contact form .medium {
+		width: 42%;
+		display: inline-block;
+	}
+
+	.contact .text-area {
+		width: 92%;
+	}
+
 	footer {
 		padding-top: 35px;
 		padding-bottom: 35px;
@@ -256,6 +282,11 @@
 		margin-bottom: 100px;
 		width: 50%;
 		margin-left: 25%;
+	}
+
+	.contact form {
+		margin-left: 100px;
+		margin-right: 100px;
 	}
 
 	footer {
