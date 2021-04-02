@@ -21,14 +21,6 @@
 		width: 66.66667%;
 	}
 
-	.medium-3 {
-		width: 22%;
-	}
-
-	.medium-7 {
-		width: 55.33333%;
-	}
-
 	.medium-offset-2 {
 	    margin-left: 16.66667%;
 	}
@@ -40,10 +32,6 @@
 
 	.down-arrow {
 		margin-top: 20px;
-	}
-
-	.margin-right-10 {
-		margin-right: 7rem;
 	}
 
 	.services {
@@ -66,8 +54,24 @@
 		padding: 20px;
 	}
 
+	.newsletter {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
 	.newsletter form {
 		flex-direction: column;
+	}
+
+	.newsletter form div {
+		width: 66.66667%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.newsletter a {
+		margin-top: 20px;
+		max-width: 200px;
 	}
 
 	footer p {
@@ -134,6 +138,20 @@
 
 	.newsletter form {
 		flex-direction: row;
+	}
+
+	.newsletter form div:first-child {
+		width: 58.33333%;
+		margin-right: -2rem;
+	}
+
+	.newsletter form div:last-child {
+		width: 25%;
+	}
+
+	.newsletter a {
+		margin-top: 0;
+		max-width: 100%;
 	}
 
 	footer {
