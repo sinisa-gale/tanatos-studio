@@ -23,14 +23,6 @@ p {
     background-position: center;
 }
 
-.position-relative {
-	position: relative;
-}
-
-section.banner header {
-	z-index: 1;
-}
-
 .row {
 	max-width: 62.5rem;
 	margin-left: auto;
@@ -129,7 +121,43 @@ h4 {
 }
 
 
+.services {
+	color: #3B434C;
+}
 
+.services div {
+	padding-right: 0.9375rem;
+    padding-left: 0.9375rem;
+}
+
+.services span {
+	border: 1px solid #C6C8CB;
+    transition: 0.45s;
+    cursor: pointer;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+}
+
+.services span:hover {
+	background-color: #F7600E;
+}
+
+.services h4 {
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.services p {
+	font-size: 14px;
+	margin-bottom: 1rem;
+	line-height: 1.6;
+}
+
+.services p:last-child {
+	margin-bottom: 0;
+}
 
 .newsletter {
 	background: url("../img/newsletter-background.jpg") no-repeat;

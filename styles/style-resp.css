@@ -6,8 +6,8 @@
 	}
 
 	.text-left {
-	text-align: left;
-}
+		text-align: left;
+	}
 
 	.text-right {
 		text-align: right;
@@ -29,16 +29,6 @@
 		width: 55.33333%;
 	}
 
-	.medium-pull-1 {
-		position: relative;
-		left: -8.33333%;
-	}
-
-	.medium-push-1 {
-		position: relative;
-		left: 8.33333%;
-	}
-
 	.medium-offset-2 {
 	    margin-left: 16.66667%;
 	}
@@ -56,12 +46,45 @@
 		margin-right: 7rem;
 	}
 
+	.services {
+		padding-top: 30px;
+		padding-bottom: 30px;
+		flex-direction: column;
+	}
+
+	.services div {
+		margin-bottom: 30px;
+		width: 100%;
+	}
+
+	.services h4 {
+		margin-top: 20px;
+		margin-bottom: 10px;
+	}
+
+	.services span {
+		padding: 20px;
+	}
+
+	.newsletter form {
+		flex-direction: column;
+	}
+
 	footer p {
 		width: 50%;
 		text-align: left;
 	}
 }
 
+@media (min-width: 640px) and (max-width: 1023px) {
+	.margin-bottom-0 {
+	    margin-bottom: 0;
+	}
+
+	.services div {
+		margin-bottom: 40px;
+	}
+}
 @media screen and (min-width: 640px) {
 	header {
 		padding-top: 30px;
@@ -89,9 +112,28 @@
 		margin-top: 20px;
 	}
 
+	.services {
+		padding-top: 50px;
+		padding-bottom: 50px;
+		flex-direction: row;
+	}
+
+	.services h4 {
+		margin-top: 30px;
+		margin-bottom: 20px;
+	}
+
+	.services span {
+		padding: 30px;
+	}
+
 	.newsletter {
 		padding-top: 50px;
 		padding-bottom: 50px;
+	}
+
+	.newsletter form {
+		flex-direction: row;
 	}
 
 	footer {
@@ -109,6 +151,10 @@
 
 	.margin-right-10 {
 		margin-right: 10rem;
+	}
+
+	.services div {
+		width: 25%;
 	}
 }
 
@@ -132,6 +178,15 @@
 
 	.down-arrow {
 		margin-top: 100px;
+	}
+
+	.services {
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+
+	.services div {
+		margin-bottom: 0;
 	}
 
 	.newsletter {
