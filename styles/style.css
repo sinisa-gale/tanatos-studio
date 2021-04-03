@@ -196,6 +196,12 @@ h4 {
 
 
 
+/*---CLIENTS---*/
+.clients {
+	background: url("../img/testimonials-background.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
 /*---CONTACTS---*/
 .contact {
