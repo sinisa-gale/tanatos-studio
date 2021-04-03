@@ -8,14 +8,6 @@
 	h4 {
 		font-size: 1.5625rem;
 	}
-	
-	.medium-size {
-		width: 66.66667%;
-	}
-
-	.medium-offset-2 {
-	    margin-left: 16.66667%;
-	}
 
 	.header-btn {
 		width: 50%;
@@ -227,6 +219,7 @@
 	.contact form .soc-icon {
 		width: 53%;
 		margin-top: 0;
+		text-align: right;
 	}
 
 	footer {
@@ -335,6 +328,7 @@
 
 	.contact form .soc-icon {
 		width: 65%;
+		text-align: right;
 	}
 
 
