@@ -58,6 +58,22 @@
 		max-width: 200px;
 	}
 
+	.clients>div {
+		height: 410px;
+	}
+
+	.clients .arrows {
+		margin-top: 10rem;
+	}
+
+	.clients .testimonial p:nth-child(2) {
+		margin-top: 20px;
+		margin-bottom: 15px;
+		font-size: 18px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
 	.contact, .clients {
 		padding-top: 30px;
 		padding-bottom: 30px;
@@ -103,6 +119,17 @@
 		text-align: center;
 	}
 }
+
+@media (min-width: 450px) and (max-width: 639px) {
+	.clients>div {
+		height: 300px;
+	}
+
+	.clients .arrows {
+		margin-top: 7rem;
+	}
+}
+
 
 @media (min-width: 640px) and (max-width: 1023px) {
 	.margin-bottom-0 {
@@ -182,6 +209,20 @@
 	.newsletter a {
 		margin-top: 0;
 		max-width: 100%;
+	}
+
+	.clients>div {
+		height: 315px;
+	}
+
+	.clients .arrows {
+		margin-top: 7rem;
+	}
+
+	.clients .testimonial p:nth-child(2) {
+		margin-top: 35px;
+		margin-bottom: 20px;
+		font-size: 20px;
 	}
 
 	.contact, .clients {
@@ -294,6 +335,16 @@
 	.newsletter {
 		padding-top: 100px;
 		padding-bottom: 100px;
+	}
+
+	.clients>div {
+		height: 325px;
+	}
+
+	.clients .testimonial p:nth-child(2) {
+		margin-top: 45px;
+		margin-bottom: 35px;
+		font-size: 25px;
 	}
 
 	.contact, .clients {

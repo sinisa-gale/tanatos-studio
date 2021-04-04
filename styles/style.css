@@ -208,6 +208,14 @@ h4 {
     background-position: center;
 }
 
+.clients .arrows {
+	padding: 1rem;
+}
+
+.clients .arrows img {
+	cursor: pointer;
+}
+
 .clients .testimonial p:nth-child(2) {
 	font-weight: 400;
 	font-style: italic;
