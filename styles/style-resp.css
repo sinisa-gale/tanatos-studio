@@ -107,13 +107,10 @@
 	}
 
 	.contact form .medium {
-		width: 90%;
-		margin-left: auto;
-		margin-right: auto;
+		width: 100%;
 	}
 
 	.contact .text-area {
-		width: 90%;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -266,17 +263,17 @@
 	}
 
 	.contact form .medium {
-		width: 42%;
+		width: 43.7%;
 		display: inline-block;
 	}
 
-	.contact .text-area {
-		width: 92%;
+	.contact form div:first-child {
+		margin-right: auto;
 	}
 
 	.contact .button-hire {
 		width: 33.33333%;
-		margin-left: 0.3%
+		text-align: left;
 	}
 
 	.contact form a {
@@ -284,9 +281,10 @@
 	}
 
 	.contact form .soc-icon {
-		width: 53%;
+		width: 50%;
 		margin-top: 0;
 		text-align: right;
+		flex: auto;
 	}
 
 	footer {
@@ -324,6 +322,10 @@
 
 	.services div {
 		width: 25%;
+	}
+
+	.contact form .medium {
+		width: 45%;
 	}
 }
 
@@ -407,9 +409,12 @@
 		margin-right: 100px;
 	}
 
+	.contact form .medium {
+		width: 46%;
+	}
+
 	.contact .button-hire {
 		width: 25%;
-		margin-left: 2%;
 	}
 
 	.contact form a {
