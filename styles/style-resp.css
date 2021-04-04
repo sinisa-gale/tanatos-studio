@@ -1,5 +1,6 @@
 /* RESPONSIVE */
 @media screen and (min-width: 200px) {
+	/*BANNER*/
 	header {
 		padding-top: 20px;
 		padding-bottom: 20px;
@@ -17,10 +18,13 @@
 	.down-arrow {
 		margin-top: 20px;
 	}
-
-	.services {
+	/*SERVICES*/
+	.services, .contact, .clients, .team {
 		padding-top: 30px;
 		padding-bottom: 30px;
+	}
+
+	.services {
 		flex-direction: column;
 	}
 
@@ -38,6 +42,7 @@
 		padding: 20px;
 	}
 
+	/*NEWSLETTER*/
 	.newsletter {
 		padding-top: 30px;
 		padding-bottom: 30px;
@@ -58,6 +63,7 @@
 		max-width: 200px;
 	}
 
+	/*CLIENTS*/
 	.clients>div {
 		height: 410px;
 	}
@@ -74,11 +80,22 @@
 		padding-right: 15px;
 	}
 
-	.contact, .clients {
-		padding-top: 30px;
-		padding-bottom: 30px;
+	/*TEAM*/
+	.team > div h4 {
+		font-size: 24px;
 	}
 
+	.team > div p {
+		margin-bottom: 30px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+
+	.team .nav-buttons {
+		margin-top: 30px;
+	}
+	/*CONTACT*/
 	.contact h4 {
 		font-size: 24px;
 	}
@@ -147,6 +164,7 @@
 	}
 }
 @media screen and (min-width: 640px) {
+	/*BANNER*/
 	header {
 		padding-top: 30px;
 		padding-bottom: 30px;
@@ -172,10 +190,13 @@
 	.down-arrow {
 		margin-top: 20px;
 	}
-
-	.services {
+	/*SERVICES*/
+	.services, .contact, .clients, .team {
 		padding-top: 50px;
 		padding-bottom: 50px;
+	}
+
+	.services {
 		flex-direction: row;
 	}
 
@@ -187,7 +208,7 @@
 	.services span {
 		padding: 30px;
 	}
-
+	/*NEWSLETTER*/
 	.newsletter {
 		padding-top: 50px;
 		padding-bottom: 50px;
@@ -210,7 +231,7 @@
 		margin-top: 0;
 		max-width: 100%;
 	}
-
+	/*CLIENTS*/
 	.clients>div {
 		height: 315px;
 	}
@@ -224,12 +245,17 @@
 		margin-bottom: 20px;
 		font-size: 20px;
 	}
-
-	.contact, .clients {
-		padding-top: 50px;
-		padding-bottom: 50px;
+	/*TEAM*/
+	.team > div h4 {
+		font-size: 28px;
 	}
 
+	.team > div p {
+		margin-bottom: 50px;
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+	/*CONTACT*/
 	.contact h4 {
 		font-size: 28px;
 	}
@@ -322,8 +348,8 @@
 	.down-arrow {
 		margin-top: 100px;
 	}
-
-	.services {
+	/*SERVICES*/
+	.services, .contact, .clients, .team {
 		padding-top: 100px;
 		padding-bottom: 100px;
 	}
@@ -331,12 +357,12 @@
 	.services div {
 		margin-bottom: 0;
 	}
-
+	/*NEWSLETTER*/
 	.newsletter {
 		padding-top: 100px;
 		padding-bottom: 100px;
 	}
-
+	/*CLIENTS*/
 	.clients>div {
 		height: 325px;
 	}
@@ -346,12 +372,25 @@
 		margin-bottom: 35px;
 		font-size: 25px;
 	}
-
-	.contact, .clients {
-		padding-top: 100px;
-		padding-bottom: 100px;
+	/*TEAM*/
+	.team > div h4 {
+		font-size: 35px;
 	}
 
+	.team > div p {
+		margin-top: 15px;
+		margin-bottom: 100px;
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+
+
+	.team .nav-buttons {
+		margin-top: 70px;
+	}
+	/*CONTACT*/
 	.contact h4 {
 		font-size: 35px;
 	}
@@ -381,7 +420,6 @@
 		width: 65%;
 		text-align: right;
 	}
-
 
 	footer {
 		padding-top: 45px;

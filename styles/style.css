@@ -225,6 +225,63 @@ h4 {
 	margin-bottom: 0;
 }
 
+/*---TEAM---*/
+.team {
+	color: #3b434c;
+}
+
+.team > div h4 {
+	font-weight: 600;
+}
+
+.team .person {
+	width: 240px;
+	margin-right: 10px;
+	filter: grayscale(1);
+}
+
+.team .person:hover {
+	filter: grayscale(0);
+}
+
+.team .members {
+	flex-wrap: wrap;
+}
+
+.team .person div:first-child img {
+	border-radius: 10px;
+	width: 240px;
+	height: 260px;
+}
+
+.team .person:hover div:first-child img {
+	transform: scaleY(1.05);
+	transform-origin: bottom;
+	box-sizing: border-box;
+	border-bottom: 5px #F7600E solid;
+	transition: 0.25s ease;
+}
+
+.team .nav-buttons span {
+	display: inline-block;
+	margin: 8px 10px;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	background-color: #C4C6C9;
+	cursor: pointer;
+}
+
+.team .nav-buttons span:hover {
+	width: 24px;
+	height: 24px;
+	margin: 6px 8px;
+	border-radius: 12px;
+	background-color: #F7600E;
+}
+
+
+
 /*---CONTACTS---*/
 .contact {
 	background: url("../img/contact-background.jpg") no-repeat;
