@@ -12,14 +12,22 @@
 
 	.header-btn {
 		width: 50%;
-		margin-left: 25%;
+		margin-left: auto;
+		margin-right: auto;
+		flex-flow: column
+	}
+
+	.header-container .header-btn .button {
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 5px;
 	}
 
 	.down-arrow {
 		margin-top: 20px;
 	}
 	/*SERVICES*/
-	.services, .contact, .clients, .team {
+	.services, .contact, .clients, .team, .newsletter {
 		padding-top: 30px;
 		padding-bottom: 30px;
 	}
@@ -43,11 +51,6 @@
 	}
 
 	/*NEWSLETTER*/
-	.newsletter {
-		padding-top: 30px;
-		padding-bottom: 30px;
-	}
-
 	.newsletter form {
 		flex-direction: column;
 	}
@@ -146,10 +149,6 @@
 
 
 @media (min-width: 640px) and (max-width: 1023px) {
-	.margin-bottom-0 {
-	    margin-bottom: 0;
-	}
-
 	.services div {
 		margin-bottom: 40px;
 	}
@@ -180,15 +179,23 @@
 		font-size: 18px;
 	}
 
+	.header-container .header-btn .button {
+		margin-left: 0;
+		margin-right: 30px;
+		margin-bottom: 1px;
+	}
+
 	.header-btn {
 		margin-top: 40px;
+		margin-left: 25%;
+		flex-flow: row;
 	}
 
 	.down-arrow {
 		margin-top: 20px;
 	}
 	/*SERVICES*/
-	.services, .contact, .clients, .team {
+	.services, .contact, .clients, .team, .newsletter {
 		padding-top: 50px;
 		padding-bottom: 50px;
 	}
@@ -206,11 +213,6 @@
 		padding: 30px;
 	}
 	/*NEWSLETTER*/
-	.newsletter {
-		padding-top: 50px;
-		padding-bottom: 50px;
-	}
-
 	.newsletter form {
 		flex-direction: row;
 	}
@@ -351,7 +353,7 @@
 		margin-top: 100px;
 	}
 	/*SERVICES*/
-	.services, .contact, .clients, .team {
+	.services, .contact, .clients, .team, .newsletter {
 		padding-top: 100px;
 		padding-bottom: 100px;
 	}
@@ -360,10 +362,6 @@
 		margin-bottom: 0;
 	}
 	/*NEWSLETTER*/
-	.newsletter {
-		padding-top: 100px;
-		padding-bottom: 100px;
-	}
 	/*CLIENTS*/
 	.clients>div {
 		height: 325px;
