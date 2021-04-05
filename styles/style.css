@@ -236,7 +236,8 @@ h4 {
 
 .team .person {
 	width: 240px;
-	margin-right: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
 	filter: grayscale(1);
 }
 
@@ -260,6 +261,19 @@ h4 {
 	box-sizing: border-box;
 	border-bottom: 5px #F7600E solid;
 	transition: 0.25s ease;
+}
+
+.team .person h3 {
+	text-transform: uppercase;
+	color: #000;
+}
+
+.team .person .soc-icon img {
+	height: 35px;
+}
+
+.team .person p {
+	font-size: 14px;
 }
 
 .team .nav-buttons span {
