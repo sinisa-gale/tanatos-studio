@@ -12,14 +12,22 @@
 
 	.header-btn {
 		width: 50%;
-		margin-left: 25%;
+		margin-left: auto;
+		margin-right: auto;
+		flex-flow: column
+	}
+
+	.header-container .header-btn .button {
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 5px;
 	}
 
 	.down-arrow {
 		margin-top: 20px;
 	}
 	/*SERVICES*/
-	.services, .contact, .clients, .team {
+	.services, .contact, .clients, .team, .newsletter {
 		padding-top: 30px;
 		padding-bottom: 30px;
 	}
@@ -43,11 +51,6 @@
 	}
 
 	/*NEWSLETTER*/
-	.newsletter {
-		padding-top: 30px;
-		padding-bottom: 30px;
-	}
-
 	.newsletter form {
 		flex-direction: column;
 	}
@@ -91,6 +94,20 @@
 		padding-right: 10px;
 	}
 
+	.team .members .person {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.team .person h3 {
+		margin-top: 10px;
+		font-size: 16px;
+	}
+
+	.team .person .soc-icon {
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
 
 	.team .nav-buttons {
 		margin-top: 30px;
@@ -144,12 +161,41 @@
 	}
 }
 
-
-@media (min-width: 640px) and (max-width: 1023px) {
-	.margin-bottom-0 {
-	    margin-bottom: 0;
+@media (min-width: 530px) and (max-width: 639px) {
+	.team .members .person {
+		padding-left: 3px;
+		padding-right: 0;
 	}
 
+	.team .members .person:nth-child(2n+1) {
+		margin-left: auto;
+		margin-right: 1%;
+	}
+
+	.team .members .person:nth-child(2n) {
+		margin-left: 1%;
+		margin-right: auto;
+	}
+}
+
+@media (min-width: 640px) and (max-width: 840px) {
+	.team .members .person {
+		padding-left: 10px;
+		padding-right: 0;
+	}
+
+	.team .members .person:nth-child(2n+1) {
+		margin-left: auto;
+		margin-right: 3%;
+	}
+
+	.team .members .person:nth-child(2n) {
+		margin-left: 3%;
+		margin-right: auto;
+	}
+}
+
+@media (min-width: 640px) and (max-width: 1023px) {
 	.services div {
 		margin-bottom: 40px;
 	}
@@ -160,6 +206,7 @@
 		padding-right: 50px;
 	}
 }
+
 @media screen and (min-width: 640px) {
 	/*BANNER*/
 	header {
@@ -180,15 +227,23 @@
 		font-size: 18px;
 	}
 
+	.header-container .header-btn .button {
+		margin-left: 0;
+		margin-right: 30px;
+		margin-bottom: 1px;
+	}
+
 	.header-btn {
 		margin-top: 40px;
+		margin-left: 25%;
+		flex-flow: row;
 	}
 
 	.down-arrow {
 		margin-top: 20px;
 	}
 	/*SERVICES*/
-	.services, .contact, .clients, .team {
+	.services, .contact, .clients, .team, .newsletter {
 		padding-top: 50px;
 		padding-bottom: 50px;
 	}
@@ -206,11 +261,6 @@
 		padding: 30px;
 	}
 	/*NEWSLETTER*/
-	.newsletter {
-		padding-top: 50px;
-		padding-bottom: 50px;
-	}
-
 	.newsletter form {
 		flex-direction: row;
 	}
@@ -251,6 +301,16 @@
 		margin-bottom: 50px;
 		padding-left: 50px;
 		padding-right: 50px;
+	}
+
+	.team .person h3 {
+		margin-top: 16px;
+		font-size: 20px;
+	}
+
+	.team .person .soc-icon {
+		margin-top: 20px;
+		margin-bottom: 20px;
 	}
 	/*CONTACT*/
 	.contact h4 {
@@ -329,6 +389,18 @@
 	}
 }
 
+@media (min-width: 841px) and (max-width: 1024px) {
+	.team .members .person:nth-child(2n+1) {
+		margin-left: auto;
+		margin-right: 10%;
+	}
+
+	.team .members .person:nth-child(2n) {
+		margin-left: 10%;
+		margin-right: auto;
+	}
+}
+
 @media screen and (min-width: 1024px) {
 	.header-container {
 		margin-top: 180px;
@@ -351,7 +423,7 @@
 		margin-top: 100px;
 	}
 	/*SERVICES*/
-	.services, .contact, .clients, .team {
+	.services, .contact, .clients, .team, .newsletter {
 		padding-top: 100px;
 		padding-bottom: 100px;
 	}
@@ -360,10 +432,6 @@
 		margin-bottom: 0;
 	}
 	/*NEWSLETTER*/
-	.newsletter {
-		padding-top: 100px;
-		padding-bottom: 100px;
-	}
 	/*CLIENTS*/
 	.clients>div {
 		height: 325px;
@@ -387,7 +455,21 @@
 		margin-right: auto;
 	}
 
+	.team .members .person {
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 0;
+		padding-right: 0;
+	}
 
+	.team .person h3 {
+		font-size: 23px;
+	}
+
+	.team .person .soc-icon {
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
 
 	.team .nav-buttons {
 		margin-top: 70px;
