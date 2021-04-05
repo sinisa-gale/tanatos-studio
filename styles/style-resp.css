@@ -27,7 +27,7 @@
 		margin-top: 20px;
 	}
 	/*SERVICES*/
-	.services, .contact, .clients, .team, .newsletter {
+	.services, .contact, .clients, .team, .newsletter, .works {
 		padding-top: 30px;
 		padding-bottom: 30px;
 	}
@@ -64,6 +64,16 @@
 	.newsletter a {
 		margin-top: 20px;
 		max-width: 200px;
+	}
+	/*WORKS*/
+	.works h4 {
+		font-size: 24px;
+	}
+
+	.works div:first-child p {
+		margin-bottom: 30px;
+		padding-left: 10px;
+		padding-right: 10px;
 	}
 
 	/*CLIENTS*/
@@ -200,7 +210,7 @@
 		margin-bottom: 40px;
 	}
 
-	.contact p {
+	.contact p, .works div:first-child p {
 		margin-bottom: 50px;
 		padding-left: 50px;
 		padding-right: 50px;
@@ -243,7 +253,7 @@
 		margin-top: 20px;
 	}
 	/*SERVICES*/
-	.services, .contact, .clients, .team, .newsletter {
+	.services, .contact, .clients, .team, .newsletter, .works {
 		padding-top: 50px;
 		padding-bottom: 50px;
 	}
@@ -277,6 +287,10 @@
 	.newsletter a {
 		margin-top: 0;
 		max-width: 100%;
+	}
+	/*WORKS*/
+	.works h4 {
+		font-size: 28px;
 	}
 	/*CLIENTS*/
 	.clients>div {
@@ -423,7 +437,7 @@
 		margin-top: 100px;
 	}
 	/*SERVICES*/
-	.services, .contact, .clients, .team, .newsletter {
+	.services, .contact, .clients, .team, .newsletter, .works {
 		padding-top: 100px;
 		padding-bottom: 100px;
 	}
@@ -432,6 +446,10 @@
 		margin-bottom: 0;
 	}
 	/*NEWSLETTER*/
+	/*WORKS*/
+	.works h4 {
+		font-size: 35px;
+	}
 	/*CLIENTS*/
 	.clients>div {
 		height: 325px;
@@ -479,7 +497,7 @@
 		font-size: 35px;
 	}
 
-	.contact p {
+	.contact p, .works div:first-child p {
 		margin-top: 15px;
 		margin-bottom: 100px;
 		width: 50%;
