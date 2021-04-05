@@ -76,6 +76,12 @@
 		padding-right: 10px;
 	}
 
+
+	.works > div:last-child a {
+		margin-top: 45px;
+		padding: 10px 30px;
+	}
+
 	/*CLIENTS*/
 	.clients>div {
 		height: 410px;
@@ -292,6 +298,11 @@
 	.works h4 {
 		font-size: 28px;
 	}
+
+	.works > div:last-child a {
+		margin-top: 70px;
+		padding: 13px 50px;
+	}
 	/*CLIENTS*/
 	.clients>div {
 		height: 315px;
@@ -449,6 +460,10 @@
 	/*WORKS*/
 	.works h4 {
 		font-size: 35px;
+	}
+
+	.works > div:last-child a {
+		margin-top: 100px;
 	}
 	/*CLIENTS*/
 	.clients>div {
