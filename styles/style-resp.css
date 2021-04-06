@@ -70,12 +70,24 @@
 		font-size: 24px;
 	}
 
-	.works div:first-child p {
+	.works > div:first-child p {
 		margin-bottom: 30px;
 		padding-left: 10px;
 		padding-right: 10px;
 	}
 
+	.works .items {
+		margin-top: 16px;
+	}
+
+	.works .overlay h3 {
+		font-size: 16px;
+	}
+
+	.works .overlay a {
+		margin-top: 10px;
+		padding: 10px 30px;
+	}
 
 	.works > div:last-child a {
 		margin-top: 45px;
@@ -104,7 +116,7 @@
 		font-size: 24px;
 	}
 
-	.team > div p {
+	.team > div:first-child p {
 		margin-bottom: 30px;
 		padding-left: 10px;
 		padding-right: 10px;
@@ -167,8 +179,8 @@
 	}
 }
 
-@media (min-width: 450px) and (max-width: 639px) {
-	.clients>div {
+@media screen and (min-width: 450px) and (max-width: 639px) {
+	.clients > div {
 		height: 300px;
 	}
 
@@ -177,7 +189,7 @@
 	}
 }
 
-@media (min-width: 530px) and (max-width: 639px) {
+@media screen and (min-width: 530px) and (max-width: 639px) {
 	.team .members .person {
 		padding-left: 3px;
 		padding-right: 0;
@@ -194,7 +206,7 @@
 	}
 }
 
-@media (min-width: 640px) and (max-width: 840px) {
+@media screen and (min-width: 640px) and (max-width: 840px) {
 	.team .members .person {
 		padding-left: 10px;
 		padding-right: 0;
@@ -211,12 +223,12 @@
 	}
 }
 
-@media (min-width: 640px) and (max-width: 1023px) {
+@media screen and (min-width: 640px) and (max-width: 1023px) {
 	.services div {
 		margin-bottom: 40px;
 	}
 
-	.contact p, .works div:first-child p {
+	.contact p, .works > div:first-child p {
 		margin-bottom: 50px;
 		padding-left: 50px;
 		padding-right: 50px;
@@ -299,6 +311,23 @@
 		font-size: 28px;
 	}
 
+	.works .overlay .img-overlay {
+		height: 250px;
+	}
+
+	.works .items {
+		width: 50%;
+	}
+
+	.works .overlay h3 {
+		font-size: 20px;
+	}
+
+	.works .overlay a {
+		margin-top: 20px;
+		padding: 13px 50px;
+	}
+
 	.works > div:last-child a {
 		margin-top: 70px;
 		padding: 13px 50px;
@@ -322,7 +351,7 @@
 		font-size: 28px;
 	}
 
-	.team > div p {
+	.team > div:first-child p {
 		margin-bottom: 50px;
 		padding-left: 50px;
 		padding-right: 50px;
@@ -401,10 +430,6 @@
 		padding-bottom: 50px;
 	}
 
-	.margin-right-10 {
-		margin-right: 10rem;
-	}
-
 	.services div {
 		width: 25%;
 	}
@@ -414,7 +439,7 @@
 	}
 }
 
-@media (min-width: 841px) and (max-width: 1024px) {
+@media screen and (min-width: 841px) and (max-width: 1024px) {
 	.team .members .person:nth-child(2n+1) {
 		margin-left: auto;
 		margin-right: 10%;
@@ -462,6 +487,14 @@
 		font-size: 35px;
 	}
 
+	.works .items {
+		width: 33.33333%;
+	}
+
+	.works .overlay h3 {
+		font-size: 23px;
+	}
+
 	.works > div:last-child a {
 		margin-top: 100px;
 	}
@@ -480,7 +513,7 @@
 		font-size: 35px;
 	}
 
-	.team > div p {
+	.team > div:first-child p {
 		margin-top: 15px;
 		margin-bottom: 100px;
 		width: 50%;
@@ -512,7 +545,7 @@
 		font-size: 35px;
 	}
 
-	.contact p, .works div:first-child p {
+	.contact p, .works > div:first-child p {
 		margin-top: 15px;
 		margin-bottom: 100px;
 		width: 50%;
